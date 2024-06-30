@@ -70,7 +70,6 @@ p {
 
   .card {
     width: 100%;
-    float: none;
     display: block;
     margin-bottom: 30px;
     text-align: justify;
@@ -79,7 +78,6 @@ p {
 
   .card img {
     margin-bottom: 10px;
-    width: auto;
     float: left;
     margin-right: 10px;
     object-fit: cover;
