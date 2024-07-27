@@ -14,6 +14,39 @@ body {
   max-width: 500px; 
 }
 
+.topnav{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.topnav a{
+ display: inline-block;
+ color: white;
+ font-size: 17px;
+ text-shadow: 2px 2px black;
+ text-decoration: none;
+ font-weight: bold;
+
+}
+
+.ind{
+  background-color: darkorange;
+  background-image: url(./images/grid.png);
+  box-shadow: 10px 10px black;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  padding-inline: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  gap: 100;
+  
+  margin-bottom: 20px;
+}
+
 div1, div2 {
   background-color: darkorange;
   box-shadow: 10px 10px black;
@@ -57,6 +90,10 @@ p {
 @media (max-width: 850px) {
   .logo {
     width: 100px;
+  }
+
+  .topnav{
+    flex-wrap: wrap;
   }
 
   h1 {
