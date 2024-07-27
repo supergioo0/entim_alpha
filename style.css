@@ -16,9 +16,7 @@ body {
 
 .topnav{
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+  justify-content: center;
 }
 .topnav a{
  display: inline-block;
